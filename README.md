@@ -1,4 +1,4 @@
-````markdown
+
 # Discord View Bot
 
 This is a Python-based bot that uses Selenium to generate views for Discord invite links on `https://discord.me/`. You can customize the number of views and the delay between views.
@@ -23,7 +23,7 @@ This is a Python-based bot that uses Selenium to generate views for Discord invi
 git clone https://github.com/briocheeeee/discord-view-bot.git
 cd discord-view-bot
 ```
-````
+
 
 ### 2. Install dependencies
 
@@ -42,16 +42,16 @@ pip install -r requirements.txt
 
 ### 3. Setup ChromeDriver or BraveBrowser
 
-Ensure that you have `ChromeDriver` or `BraveBrowser` set up correctly. You can download `ChromeDriver` from [here](https://sites.google.com/a/chromium.org/chromedriver/).
+Ensure that you have `ChromeDriver` or `BraveBrowser` set up correctly. You can download `ChromeDriver` from [here](https://developer.chrome.com/docs/chromedriver/downloads).
 
-Make sure to update the `driver_path` and `brave_path` in the `bot.py` script to point to your installed `chromedriver.exe` and `brave.exe` paths.
+Make sure to update the `driver_path` and `brave_path` in the `main.py` script to point to your installed `chromedriver.exe` and `brave.exe` paths.
 
 ### 4. Running the bot
 
 To run the bot, use the following command:
 
 ```bash
-python bot.py
+python main.py
 ```
 
 It will ask you for the Discord invite URL part and the number of views you want to generate. The bot will then start generating views for the link with the configured delay.
@@ -70,6 +70,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 This bot is intended for educational purposes only. Please use it responsibly and in accordance with all applicable terms of service.
 
-```
-
-```
